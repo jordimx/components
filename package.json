@@ -1,0 +1,26 @@
+{
+  "name": "@multiplica/components",
+  "version": "1.0.0",
+  "description": "Angular components library in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordimx/components.git"
+  },
+  "keywords": [
+    "angular",
+    "components",
+    "atomic",
+    "library",
+    "typescript"
+  ],
+  "author": "Multiplica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordimx/components/issues"
+  },
+  "homepage": "https://github.com/jordimx/components#readme"
+}
