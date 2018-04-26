@@ -2,9 +2,10 @@
   "name": "@multiplica/components",
   "version": "1.0.0",
   "description": "Angular components library in Typescript",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/jordimx/components/issues"
   },
-  "homepage": "https://github.com/jordimx/components#readme"
+  "homepage": "https://github.com/jordimx/components#readme",
+  "dependencies": {
+    "@angular/common": "6.0.0-rc.5",
+    "@angular/core": "6.0.0-rc.5",
+    "rxjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/pluralize": "0.0.28",
+    "typescript": "^2.8.3",
+    "zone.js": "^0.8.26"
+  }
 }

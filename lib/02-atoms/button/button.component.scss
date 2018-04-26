@@ -1,0 +1,26 @@
+button.mx-button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    -webkit-appearance: button;
+    font-family: inherit;
+    &:focus {
+        outline: 0;
+        text-decoration: none;
+    }
+    &:disabled {
+        opacity: .65;
+    }
+}

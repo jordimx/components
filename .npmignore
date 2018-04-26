@@ -1,0 +1,7 @@
+/.github
+/.vs
+/.vscode
+/node_modules
+/lib
+.npmignore
+tslint.json
